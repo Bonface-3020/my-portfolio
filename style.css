@@ -12,11 +12,11 @@ header {
     text-align: center;
 }
 .profile-image {
-    width: 50px; /* Adjust width and height as needed */
+    width: 50px; 
     height: 50px;
-    border-radius: 50%; /* Make it circular */
-    overflow: hidden; /* Ensure image stays within circle */
-    margin-right: 1rem; /* Add spacing between image and title */
+    border-radius: 50%; 
+    overflow: hidden; 
+    margin-right: 1rem; 
 }
 
 
@@ -42,8 +42,8 @@ section {
 }
 .social-media {
     display: flex;
-    justify-content: space-around; /* Adjust spacing between links */
-    margin-top: 1rem; /* Example: Adds space above the social media links */
+    justify-content: space-around; 
+    margin-top: 1rem; 
 }
 
 .social-media a {
@@ -52,7 +52,7 @@ section {
     font-size: 1.5rem;
     display: flex;
     align-items: center;
-    padding: 0.5rem; /* Adjust padding around each link */
+    padding: 0.5rem; 
 }
 
 .social-media a i {
