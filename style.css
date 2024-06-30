@@ -40,6 +40,9 @@ section {
     padding: 2rem;
     margin: 1rem 0;
 }
+#skill-set{
+    font-size: large;
+}
 .social-media {
     display: flex;
     justify-content: space-around; 
@@ -212,3 +215,25 @@ nav ul li a:hover{
 .skill-card:hover {
     transform: translateY(-30px); 
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.social-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 0 10px; 
+    background-color: #007bff; 
+    color:blue; 
+    text-decoration: none;
+    border:dodgerblue;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; 
+}
+
+.social-btn i {
+    margin-right: 5px; 
+}
+
+.social-btn:hover {
+    background-color: #320ad2;
+}
