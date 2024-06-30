@@ -176,7 +176,7 @@ nav ul li a:hover{
 .skill-cards {
     display: flex;
     flex-wrap: wrap;
-    gap: 1rem; /* Adjust spacing between cards */
+    gap: 1rem; 
 }
 
 .skill-card {
@@ -184,18 +184,19 @@ nav ul li a:hover{
     border: 1px solid #ddd;
     border-radius: 8px;
     padding: 1rem;
-    flex: 1 1 300px; /* Adjust card width */
-    max-width: 300px; /* Maximum width for responsiveness */
+    flex: 1 1 300px; 
+    max-width: 300px; 
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
+    transition: transform 0.3s ease-in-out;
 }
 
 .skill-card img {
     max-width: 100%;
     border-radius: 8px;
-    margin-bottom: 1rem; /* Spacing between image and title */
+    margin-bottom: 1rem; 
 }
 
 .skill-card h3 {
@@ -208,3 +209,6 @@ nav ul li a:hover{
     color: #666;
     margin-bottom: 0;
 }
+.skill-card:hover {
+    transform: translateY(-30px); 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
