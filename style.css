@@ -7,7 +7,7 @@ body {
 
 .header {
     height: 200px; /* Adjust the height as needed */
-    background-image: url('images/api.avif');
+    background-image: url('images/carosel\ 2.png');
     background-size: cover; /* Ensure the image covers the entire header */
     background-position: center; /* Center the image */
     background-repeat: no-repeat; /* Prevent the image from repeating */
