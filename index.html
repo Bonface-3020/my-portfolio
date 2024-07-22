@@ -6,12 +6,13 @@
     <title>My Portfolio</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body>
     <header>
-         <div class="profile-image">
-        <img src="../images/tom.jpg" alt="Profile Image">
-    </div>
+        <div class="profile-image">
+            <img src="images/portfolio.avif" alt="Profile Image">
+        </div>
         <h1>My Portfolio</h1>
         <nav>
             <ul>
@@ -20,7 +21,6 @@
                 <li><a href="#skills">Skills</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
-            <img src=""
         </nav>
         <div class="music-bars">
             <div class="bar"></div>
@@ -28,7 +28,7 @@
             <div class="bar"></div>
             <div class="bar"></div>
             <div class="bar"></div>
-            <div class="bar"></div>
+            <div class="bar"></div>   
             <div class="bar"></div>
             <div class="bar"></div>
             <div class="bar"></div>
@@ -37,13 +37,42 @@
             <div class="bar"></div>
         </div>
     </header>
+    <div class="container">
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+          <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+          </ol>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="images/app.jpg" alt="app" class="d-block w-100">
+            </div>
+            <div class="carousel-item">
+              <img src="images/app.jpg" alt="app" class="d-block w-100">
+            </div>
+            <div class="carousel-item">
+              <img src="images/app.jpg" alt="app" class="d-block w-100">
+            </div>
+          </div>
+          <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+      </div>
+    
 
     <section id="about">
         <h2>About Me</h2>
-        <p>Hello, I'm Bonface Thuo, a dedicated professional with a background in Mathematics and Computer Science. With a solid foundation from my Bachelor's degree and practical experience gained from collaborating with various companies, I bring a unique blend of analytical thinking and technical expertise to every project. .</p>
+        <p>Hello, I'm Bonface Thuo, a dedicated professional with a background in Mathematics and Computer Science. With a solid foundation from my Bachelor's degree and practical experience gained from collaborating with various companies, I bring a unique blend of analytical thinking and technical expertise to every project.</p>
         <p>My journey began with a passion for problem-solving, which led me to explore the intricate world of Mathematics and Computer Science. This academic pursuit equipped me with a rigorous approach to logic and algorithmic thinking, essential for tackling complex challenges in software development.</p>
-        <h3>Experties</h3>
-        <p>I am proficient in both front-end and back-end technologies, leveraging my skills to create seamless, user-centric web applications. My experience spans across  HTML/CSS, JavaScript, React.js, Node.js, Python, Django, allowing me to architect robust solutions that meet both technical requirements and user expectations.</p>
+        <h3>Expertise</h3>
+        <p>I am proficient in both front-end and back-end technologies, leveraging my skills to create seamless, user-centric web applications. My experience spans across HTML/CSS, JavaScript, React.js, Node.js, Python, Django, allowing me to architect robust solutions that meet both technical requirements and user expectations.</p>
         <p>I am passionate about continuous learning and innovation, always seeking to expand my skill set and stay updated with industry trends. My goal is to leverage my technical proficiency and problem-solving prowess to contribute meaningfully to cutting-edge projects and drive impactful solutions.</p>
         <p>I am excited to connect and explore opportunities where I can apply my expertise and contribute to transformative projects. Let's collaborate and create something exceptional together.</p>
     </section>
@@ -52,9 +81,9 @@
         <h2>Projects</h2>
         <ul>
             <li>my project 1</li>
-            <li>my project 1</li>
-            <li>my project 1</li>
-            <li>my project 1</li>
+            <li>my project 2</li>
+            <li>my project 3</li>
+            <li>my project 4</li>
         </ul>
     </section>
 
@@ -64,19 +93,19 @@
         <div class="skill-cards">
             <div class="skill-card">
                 <h3>API Building</h3>
-                <img src="../images/api.avif" alt="API Building">
+                <img src="images/api.avif" alt="API Building">
             </div>
             <div class="skill-card">
                 <h3>Front End Development</h3>
-                <img src="../images/front.png" alt="Front End Development">
+                <img src="images/front.png" alt="Front End Development">
             </div>
             <div class="skill-card">
                 <h3>Python</h3>
-                <img src="../images/python.png" alt="Python">
+                <img src="images/python.png" alt="Python">
             </div>
             <div class="skill-card">
                 <h3>App Development with <b>Thunkable</b></h3>
-                <img src="../images/app.jpg" alt="App Development with Thunkable">
+                <img src="images/app.jpg" alt="App Development with Thunkable">
             </div>
         </div>
     </section>
@@ -84,18 +113,21 @@
 
     <section id="contact">
         <h2>Contact</h2>
-        <p>you can reach to me through my social media hundles and also email:</p>
+        <p>You can reach me through my social media handles and also email:</p>
         <div class="social-media">
             <a href="https://twitter.com/yourhandle" class="social-button" target="_blank" class="twitter"><i class="fab fa-twitter"></i> Twitter</a>
-            <a href="https://www.linkedin.com/in/yourhandle"class="social-button" target="https://www.linkedin.com/in/bonface-thuo-644722270?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="fab fa-linkedin"></i> LinkedIn</a>
-            <a href="https://github.com/yourhandle"class="social-button" target="https://github.com/Bonface-3020"><i class="fab fa-github"></i> GitHub</a>
-            <a href="https://www.instagram.com/yourhandle" class="social-button"target="https://www.instagram.com/alpha_bonnie_3020?igsh=MWN3YW5udHBidG1ybQ=="><i class="fab fa-instagram"></i> Instagram</a>
+            <a href="https://www.linkedin.com/in/yourhandle" class="social-button" target="_blank" class="linkedin"><i class="fab fa-linkedin"></i> LinkedIn</a>
+            <a href="https://github.com/yourhandle" class="social-button" target="_blank" class="github"><i class="fab fa-github"></i> GitHub</a>
+            <a href="https://www.instagram.com/yourhandle" class="social-button" target="_blank" class="instagram"><i class="fab fa-instagram"></i> Instagram</a>
         </div>
-
     </section>
 
     <footer>
         <p>&copy; 2024 Bonface Thuo Kamama</p>
     </footer>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
